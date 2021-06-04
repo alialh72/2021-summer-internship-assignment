@@ -29,9 +29,9 @@ public class SecondAlgo {
 
         // Initialize the lists using stream
         // Using .asList() on the arrays wouldnt work as it would return a List<int[]>
-        List<Integer> listA = Arrays.stream(a).boxed().collect(Collectors.toList());  
-        List<Integer> tempA = new ArrayList<>(listA);
-        List<Integer> listB = Arrays.stream(b).boxed().collect(Collectors.toList());
+        List<Integer> listA = Arrays.stream(a).boxed().collect(Collectors.toList());  // converts the arrays into lists and assigns it to listA
+        List<Integer> tempA = new ArrayList<>(listA);  // making a copy of listA and assigning it to tempA
+        List<Integer> listB = Arrays.stream(b).boxed().collect(Collectors.toList());  // converts the arrays into lists and assigns it to listB
 
         // remove listB from listA
         listA.removeAll(listB);
