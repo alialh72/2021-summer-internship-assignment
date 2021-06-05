@@ -1,7 +1,5 @@
-import java.io.*;
 import java.util.*; 
-import java.util.HashSet;
-import java.util.stream.Collectors;
+
 
 class FirstAlgo {
   public static void main(String args[]) { 
