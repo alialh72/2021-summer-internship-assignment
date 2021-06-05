@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 public class SecondAlgo {
     
     public static void main(String[] args) {
-        int[] arr1 = {5, 2, 1, 7, 9, 19};
-        int[] arr2 = {5, 2, 1, 7, 9, 10, 15};
+        int[] arr1 = {5, 2, 1, 7, 9, 19, 13};
+        int[] arr2 = {5, 2, 1, 7, 9, 10, 15, 17};
 
         reconcileHelper(arr1, arr2);
     }
